@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.prestashop.com/fr/blog/feed.xml" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:og="http://ogp.me/ns#" xmlns:article="http://ogp.me/ns/article#" xmlns:book="http://ogp.me/ns/book#" xmlns:profile="http://ogp.me/ns/profile#" xmlns:video="http://ogp.me/ns/video#" xmlns:product="http://ogp.me/ns/product#" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>Blog Feed</title>
+    <link>https://www.prestashop.com/fr/blog/feed.xml</link>
+    <description></description>
+    <language>fr</language>
+     <atom:link href="https://www.prestashop.com/fr/blog/feed.xml" rel="self" type="application/rss+xml" />
+      <item>
+    <title>Case Studies - PrestaShop Addons X Big Moustache</title>
+    <link>https://www.prestashop.com/fr/blog/case-studies-big-moustache</link>
+    <description>Crée en 2013, Big Moustache a pour ambition de révolutionner le rasage des Français en leur livrant directement chez eux, tous les mois, </description>
+     <pubDate>Tue, 23 Jan 2018 11:03:42 +0100</pubDate>
+ <dc:creator>Anonymous</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/fr/blog/case-studies-big-moustache</guid>
+  </item>
+  <item>
+    <title>Votre Calendrier e-commerce 2018 à télécharger !</title>
+    <link>https://www.prestashop.com/fr/blog/votre-calendrier-e-commerce-2018-a-telecharger</link>
+    <description>Vous avez le talent et les idées, l’équipe PrestaShop vous offre son calendrier pour vous accompagner tout au long de l’année !</description>
+     <pubDate>Mon, 22 Jan 2018 17:28:52 +0100</pubDate>
+ <dc:creator>Anonymous</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/fr/blog/votre-calendrier-e-commerce-2018-a-telecharger</guid>
+  </item>
+  <item>
+    <title>Loi N°2017-1837 Du 30/12/2017 De Finances Pour 2018</title>
+    <link>https://www.prestashop.com/fr/blog/article-88-nouvelles-obligations-en-matiere-de-logiciel-et-systeme-de-caisse</link>
+    <description>Oui, l’e-commerce est concerné 
+NE SONT PAS CONCERNÉS :</description>
+     <pubDate>Thu, 11 Jan 2018 17:43:51 +0100</pubDate>
+ <dc:creator>article88@prestashop.com</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/fr/blog/article-88-nouvelles-obligations-en-matiere-de-logiciel-et-systeme-de-caisse</guid>
+  </item>
+  <item>
+    <title>FRENCH MODE, le concept store de créateurs français ouvre sa première boutique</title>
+    <link>https://www.prestashop.com/fr/french-mode-concept-store-createurs-francais-ouvre-premiere-boutique</link>
+    <description>Créé en 2014, FRENCH MODE est un projet ambitieux créé par des amis passionnés par la mode, le luxe et le digital.</description>
+     <pubDate>Mon, 08 Jan 2018 14:05:28 +0100</pubDate>
+ <dc:creator>Anonymous</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/fr/french-mode-concept-store-createurs-francais-ouvre-premiere-boutique</guid>
+  </item>
+  <item>
+    <title>Tout savoir sur l&amp;#039;Article 88 de la Loi 2015-1785</title>
+    <link>https://www.prestashop.com/fr//blog/dernieres-dispositions-lutte-contre-fraude-TVA-2018</link>
+    <description>ATTENTION
+Ne sont pas concernés par les nouvelles dispositions qui entreront en vigueur le 1er janvier 2018 :</description>
+     <pubDate>Fri, 29 Dec 2017 16:53:46 +0100</pubDate>
+ <dc:creator>article88@prestashop.com</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/fr//blog/dernieres-dispositions-lutte-contre-fraude-TVA-2018</guid>
+  </item>
+  <item>
+    <title>Rencontrez Jose &amp;amp; Ismael, nos Ambassadeurs du mois | Décembre 2017</title>
+    <link>https://www.prestashop.com/fr/blog/rencontrez-jose-et-ismael-ambassadeurs-decembre-2017</link>
+    <description>Les enthousiastes Jose et Ismael sont nos Ambassadeurs à Malaga et organisent tous leurs meetups ensemble !</description>
+     <pubDate>Wed, 27 Dec 2017 00:00:00 +0100</pubDate>
+ <dc:creator>Manon Plommet</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/fr/blog/rencontrez-jose-et-ismael-ambassadeurs-decembre-2017</guid>
+  </item>
+  <item>
+    <title>L’Europe, un marché à investir, de nouveaux clients à conquérir…</title>
+    <link>https://www.prestashop.com/fr/blog/leurope-un-marche-a-investir-de-nouveaux-clients-a-conquerir</link>
+    <description>Ouvrez votre site à plus de 300 millions d’e-acheteurs européens potentiels !</description>
+     <pubDate>Tue, 28 Nov 2017 18:53:20 +0100</pubDate>
+ <dc:creator>Colissimo</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/fr/blog/leurope-un-marche-a-investir-de-nouveaux-clients-a-conquerir</guid>
+  </item>
+  <item>
+    <title>Rencontrez Mohamed &amp;amp; Mohamed, Ambassadeurs du mois  | Novembre 2017</title>
+    <link>https://www.prestashop.com/fr/blog/encontrez-mohamed-et-mohamed-ambassadeurs-du-mois-novembre-2017</link>
+    <description>Mohamed Marrouchi et Mohamed Melki forment un duo d’Ambassadeurs à Tunis et organisent régulièrement des meetups ensemble. Ils sont toujours prêts à aider la communauté PrestaShop locale !</description>
+     <pubDate>Tue, 28 Nov 2017 15:03:42 +0100</pubDate>
+ <dc:creator>Manon Plommet</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/fr/blog/encontrez-mohamed-et-mohamed-ambassadeurs-du-mois-novembre-2017</guid>
+  </item>
+  <item>
+    <title>[Etude de cas] Cornilleau &amp;amp; PrestaShop 1.7, l&amp;#039;exemple d&amp;#039;un déploiement international réussi</title>
+    <link>https://www.prestashop.com/fr/blog/cornilleau-prestashop-exemple-d-un-deploiement-international-reussi</link>
+    <description>Depuis plus de 45 ans, Cornilleau s’est imposé comme un des leaders mondiaux de la conception et commercialisation d’équipements de tennis de table.</description>
+     <pubDate>Thu, 23 Nov 2017 14:13:31 +0100</pubDate>
+ <dc:creator>agence123@prestashop.com</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/fr/blog/cornilleau-prestashop-exemple-d-un-deploiement-international-reussi</guid>
+  </item>
+  <item>
+    <title>39 statistiques e-commerce que vous devez connaître avant la période des fêtes</title>
+    <link>https://www.prestashop.com/fr/blog/39-statistiques-e-commerce-que-vous-devez-connaitre-avant-la-periode-des-fetes</link>
+    <description>Avec le Black Friday, le Cyber Monday et le Boxing Day, la définition de « période des fêtes » s&#039;est considérablement étendue.</description>
+     <pubDate>Thu, 23 Nov 2017 10:28:21 +0100</pubDate>
+ <dc:creator>Anonymous</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/fr/blog/39-statistiques-e-commerce-que-vous-devez-connaitre-avant-la-periode-des-fetes</guid>
+  </item>
+  </channel>
+</rss>
