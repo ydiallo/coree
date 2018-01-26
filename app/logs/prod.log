@@ -1,0 +1,2 @@
+[2018-01-25 15:33:11] app.ERROR: Class "AdminLeoBootstrapMenuModuleController" not found in controllers/admin [] []
+[2018-01-25 15:33:11] app.ERROR: Class "AdminLeoWidgetsController" not found in controllers/admin [] []

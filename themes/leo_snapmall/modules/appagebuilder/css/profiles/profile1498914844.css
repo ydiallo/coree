@@ -1,0 +1,97 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+#wrapper {
+  background: #f1f1f1; }
+
+.box-start {
+  padding-top: 28px; }
+
+@media (max-width: 991px) {
+  .box-slideshow .right-block {
+    margin-top: 30px; } }
+
+.box-service {
+  margin-top: 35px;
+  margin-bottom: 35px; }
+  @media (min-width: 992px) {
+    .box-service {
+      display: -webkit-box;
+      display: -moz-box;
+      display: box;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flexbox;
+      display: flex; } }
+  @media (min-width: 992px) {
+    .box-service > [class*="col-"] + [class*="col-"] {
+      border-left: 1px solid #e5e5e5; }
+      .rtl .box-service > [class*="col-"] + [class*="col-"] {
+        border-right: 1px solid #e5e5e5;
+        border-left: inherit; } }
+  @media (max-width: 991px) and (min-width: 576px) {
+    .box-service > [class*="col-"]:nth-child(2n + 1) {
+      clear: both; } }
+
+.box-product-tabs {
+  margin-bottom: 20px; }
+
+.box-three-banner {
+  margin-bottom: 20px; }
+  .box-three-banner .banner {
+    margin-bottom: 30px; }
+
+.box-banner-product {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 60px 15px 30px;
+  margin-bottom: 50px; }
+  @media (max-width: 1229px) and (min-width: 992px) {
+    .box-banner-product {
+      padding: 60px 15px 35px; } }
+  @media (max-width: 991px) {
+    .box-banner-product {
+      margin-bottom: 30px;
+      padding: 40px 5px 30px; } }
+  @media (max-width: 991px) {
+    .box-banner-product .block-product.right-block {
+      margin-top: 35px; } }
+  @media (max-width: 991px) {
+    .box-banner-product .block-product.left-block {
+      margin-bottom: 20px; } }
+
+.box-blog {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 50px;
+  padding: 40px 15px 20px; }
+  @media (max-width: 991px) {
+    .box-blog {
+      margin-bottom: 30px;
+      padding: 40px 5px 20px; } }
+
+.box-manufactures {
+  margin-bottom: 50px; }
+  @media (max-width: 991px) {
+    .box-manufactures {
+      margin-bottom: 30px; } }
+
+/*# sourceMappingURL=profile1498914844.css.map */

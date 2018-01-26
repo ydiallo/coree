@@ -1,0 +1,140 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+.leo-partsfilter .title_block {
+  display: none; }
+.leo-partsfilter .block_content {
+  margin-bottom: 50px; }
+.leo-partsfilter .leo-partsfilter-submit {
+  position: relative;
+  background: #252525;
+  min-width: 100px;
+  text-align: center;
+  cursor: pointer;
+  padding: 0px;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
+  .leo-partsfilter .leo-partsfilter-submit:hover {
+    background: #ffba57; }
+  .leo-partsfilter .leo-partsfilter-submit .label {
+    padding: 7px 20px;
+    color: #FFFFFF;
+    display: block;
+    text-align: center; }
+  .leo-partsfilter .leo-partsfilter-submit.loading .label {
+    opacity: 0;
+    filter: alpha(opacity=0); }
+.leo-partsfilter .field-submit .colspan {
+  display: none; }
+.leo-partsfilter .label-search {
+  font-size: 20px;
+  color: #333333;
+  padding-right: 10px; }
+  .rtl .leo-partsfilter .label-search {
+    padding-left: 10px;
+    padding-right: inherit; }
+  @media (max-width: 479px) {
+    .leo-partsfilter .label-search {
+      font-size: 18px; } }
+.leo-partsfilter .value-search .disable {
+  cursor: no-drop; }
+.leo-partsfilter .value-search select {
+  border: none;
+  width: 100%;
+  font-size: 20px;
+  padding: 0px 0px 5px;
+  border-bottom: 1px solid #ffba57;
+  color: #ffba57; }
+  @media (min-width: 480px) {
+    .leo-partsfilter .value-search select {
+      min-width: 200px; } }
+  @media (max-width: 479px) {
+    .leo-partsfilter .value-search select {
+      font-size: 18px; } }
+  .leo-partsfilter .value-search select:hover, .leo-partsfilter .value-search select:focus {
+    outline: 0; }
+  .leo-partsfilter .value-search select[disabled] {
+    color: inherit;
+    cursor: no-drop; }
+.leo-partsfilter #leo-process {
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0; }
+  .leo-partsfilter #leo-process img {
+    width: 20px; }
+
+#mmy {
+  width: 100%;
+  display: block; }
+  @media (max-width: 991px) {
+    #mmy {
+      text-align: center; } }
+  #mmy tbody {
+    display: block;
+    margin: 0 -10px; }
+  #mmy tr {
+    padding: 0 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+    vertical-align: middle; }
+
+.sidebar .leo-partsfilter .title_block {
+  display: block; }
+.sidebar .leo-partsfilter .block_content {
+  margin-bottom: 30px; }
+.sidebar .leo-partsfilter #mmy {
+  display: table; }
+  .sidebar .leo-partsfilter #mmy tbody {
+    display: table-row-group;
+    margin: 0; }
+  .sidebar .leo-partsfilter #mmy tr {
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: table-row;
+    margin-bottom: 10px; }
+  .sidebar .leo-partsfilter #mmy td {
+    display: block; }
+.sidebar .leo-partsfilter .label-search {
+  margin-bottom: 5px;
+  font-size: inherit;
+  padding-right: 0px; }
+  .rtl .sidebar .leo-partsfilter .label-search {
+    padding-left: 0px;
+    padding-right: inherit; }
+.sidebar .leo-partsfilter .value-search {
+  margin-bottom: 10px; }
+  .sidebar .leo-partsfilter .value-search select {
+    min-width: 100%;
+    padding: 5px 10px;
+    font-size: inherit;
+    border: 1px solid #ffba57; }
+    .sidebar .leo-partsfilter .value-search select[disabled] {
+      border-color: inherit; }
+.sidebar .leo-partsfilter .leo-partsfilter-submit .label {
+  padding: 7px 20px; }
+
+/*# sourceMappingURL=leopartsfilter.css.map */

@@ -1,0 +1,9 @@
+/**************************************************
+	Changelog Of Prestashop 1.7.2.3
+**************************************************/
+
+**** File TPL ****
+- \templates\catalog\_partials\product-details.tpl
+
+**** File JS ****
+- \assets\js\theme.js

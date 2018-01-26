@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dataSample>
+  <configurations>
+    <config><name><![CDATA[CFG_LEOPARTSFILTER]]></name><value><![CDATA[YTo3Mzp7czoyMDoiUFNfQUxMT1dfU0VBUkNIX0ZPUk0iO3M6MToiMSI7czoxNzoiUFNfTU1ZX1RPUF9URVhUXzEiO3M6MTM6IkZpbHRlciBSZXN1bHQiO3M6MTc6IlBTX01NWV9UT1BfVEVYVF8yIjtzOjIwOiJSZXN1bHRhZG8gZGVsIGZpbHRybyI7czoxNzoiUFNfTU1ZX1RPUF9URVhUXzMiO3M6MTQ6IkZpbHRlcmVyZ2VibmlzIjtzOjE3OiJQU19NTVlfVE9QX1RFWFRfNCI7czoxOToiUsOpc3VsdGF0IGR1IGZpbHRyZSI7czoxNzoiUFNfTU1ZX1RPUF9URVhUXzUiO3M6MjA6IlJpc3VsdGF0byBkZWwgZmlsdHJvIjtzOjE3OiJQU19NTVlfVE9QX1RFWFRfNiI7czozNDoi2YbYqtmK2KzYqSDYudin2YXZhCDYp9mE2KrYtdmB2YrYqSI7czoxOToiUFNfTU1ZX0JPWF9IRUFERVJfMSI7czoxNToiRmluZCBZb3VyIFBhcnRzIjtzOjE5OiJQU19NTVlfQk9YX0hFQURFUl8yIjtzOjIwOiJFbmNvbnRyYXIgc3VzIHBhcnRlcyI7czoxOToiUFNfTU1ZX0JPWF9IRUFERVJfMyI7czoyNjoiSGllciBmaW5kZW4gU2llIElocmUgVGVpbGUiO3M6MTk6IlBTX01NWV9CT1hfSEVBREVSXzQiO3M6MTk6IlRyb3V2ZXIgdm9zIHBpw6hjZXMiO3M6MTk6IlBTX01NWV9CT1hfSEVBREVSXzUiO3M6MTY6IlRyb3ZhcmUgbGUgcGFydGkiO3M6MTk6IlBTX01NWV9CT1hfSEVBREVSXzYiO3M6NTI6Itin2YTYudir2YjYsSDYudmE2Ykg2KfZhNij2KzYstin2KEg2KfZhNiu2KfYtdipINio2YMiO3M6MjY6IlBTX01NWV9NQUtFX0RFRkFVTFRfVEVYVF8xIjtzOjE2OiItLS0gQ2F0ZWdvcnkgLS0tIjtzOjI2OiJQU19NTVlfTUFLRV9ERUZBVUxUX1RFWFRfMiI7czoxODoiLS0tIENhdGVnb3LDrWEgLS0tIjtzOjI2OiJQU19NTVlfTUFLRV9ERUZBVUxUX1RFWFRfMyI7czoxNzoiLS0tIEthdGVnb3JpZSAtLS0iO3M6MjY6IlBTX01NWV9NQUtFX0RFRkFVTFRfVEVYVF80IjtzOjE4OiItLS0gQ2F0w6lnb3JpZSAtLS0iO3M6MjY6IlBTX01NWV9NQUtFX0RFRkFVTFRfVEVYVF81IjtzOjE3OiItLS0gQ2F0ZWdvcmlhIC0tLSI7czoyNjoiUFNfTU1ZX01BS0VfREVGQVVMVF9URVhUXzYiO3M6MTg6Ii0tLSDYp9mE2YHYptipIC0tLSI7czoyNzoiUFNfTU1ZX01PREVMX0RFRkFVTFRfVEVYVF8xIjtzOjE2OiItLS0gRmVhdHVyZXMgLS0tIjtzOjI3OiJQU19NTVlfTU9ERUxfREVGQVVMVF9URVhUXzIiO3M6MjQ6Ii0tLSBDYXJhY3RlcsOtc3RpY2FzIC0tLSI7czoyNzoiUFNfTU1ZX01PREVMX0RFRkFVTFRfVEVYVF8zIjtzOjE4OiItLS0gRnVua3Rpb25lbiAtLS0iO3M6Mjc6IlBTX01NWV9NT0RFTF9ERUZBVUxUX1RFWFRfNCI7czoyNToiLS0tIENhcmFjdMOpcmlzdGlxdWVzIC0tLSI7czoyNzoiUFNfTU1ZX01PREVMX0RFRkFVTFRfVEVYVF81IjtzOjIzOiItLS0gQ2FyYXR0ZXJpc3RpY2hlIC0tLSI7czoyNzoiUFNfTU1ZX01PREVMX0RFRkFVTFRfVEVYVF82IjtzOjE4OiItLS0g2YXZitiy2KfYqiAtLS0iO3M6MjY6IlBTX01NWV9ZRUFSX0RFRkFVTFRfVEVYVF8xIjtzOjE3OiItLS0gVHJhbnNwb3J0IC0tLSI7czoyNjoiUFNfTU1ZX1lFQVJfREVGQVVMVF9URVhUXzIiO3M6MTg6Ii0tLSBUcmFuc3BvcnRlIC0tLSI7czoyNjoiUFNfTU1ZX1lFQVJfREVGQVVMVF9URVhUXzMiO3M6MTc6Ii0tLSBUcmFuc3BvcnQgLS0tIjtzOjI2OiJQU19NTVlfWUVBUl9ERUZBVUxUX1RFWFRfNCI7czoxNzoiLS0tIFRyYW5zcG9ydCAtLS0iO3M6MjY6IlBTX01NWV9ZRUFSX0RFRkFVTFRfVEVYVF81IjtzOjE3OiItLS0gVHJhc3BvcnRvIC0tLSI7czoyNjoiUFNfTU1ZX1lFQVJfREVGQVVMVF9URVhUXzYiO3M6MTg6Ii0tLSDYp9mE2YbZgtmEIC0tLSI7czoxODoiUFNfTU1ZX01BS0VfVEVYVF8xIjtzOjg6IkNhdGVnb3J5IjtzOjE4OiJQU19NTVlfTUFLRV9URVhUXzIiO3M6MTA6IkNhdGVnb3LDrWEiO3M6MTg6IlBTX01NWV9NQUtFX1RFWFRfMyI7czo5OiJLYXRlZ29yaWUiO3M6MTg6IlBTX01NWV9NQUtFX1RFWFRfNCI7czoxMDoiQ2F0w6lnb3JpZSI7czoxODoiUFNfTU1ZX01BS0VfVEVYVF81IjtzOjk6IkNhdGVnb3JpYSI7czoxODoiUFNfTU1ZX01BS0VfVEVYVF82IjtzOjEwOiLYp9mE2YHYptipIjtzOjE5OiJQU19NTVlfTU9ERUxfVEVYVF8xIjtzOjg6IkZlYXR1cmVzIjtzOjE5OiJQU19NTVlfTU9ERUxfVEVYVF8yIjtzOjE2OiJDYXJhY3RlcsOtc3RpY2FzIjtzOjE5OiJQU19NTVlfTU9ERUxfVEVYVF8zIjtzOjEwOiJGdW5rdGlvbmVuIjtzOjE5OiJQU19NTVlfTU9ERUxfVEVYVF80IjtzOjE3OiJDYXJhY3TDqXJpc3RpcXVlcyI7czoxOToiUFNfTU1ZX01PREVMX1RFWFRfNSI7czoxNToiQ2FyYXR0ZXJpc3RpY2hlIjtzOjE5OiJQU19NTVlfTU9ERUxfVEVYVF82IjtzOjEwOiLZhdmK2LLYp9iqIjtzOjE4OiJQU19NTVlfWUVBUl9URVhUXzEiO3M6OToiVHJhbnNwb3J0IjtzOjE4OiJQU19NTVlfWUVBUl9URVhUXzIiO3M6MTA6IlRyYW5zcG9ydGUiO3M6MTg6IlBTX01NWV9ZRUFSX1RFWFRfMyI7czo5OiJUcmFuc3BvcnQiO3M6MTg6IlBTX01NWV9ZRUFSX1RFWFRfNCI7czo5OiJUcmFuc3BvcnQiO3M6MTg6IlBTX01NWV9ZRUFSX1RFWFRfNSI7czo5OiJUcmFzcG9ydG8iO3M6MTg6IlBTX01NWV9ZRUFSX1RFWFRfNiI7czoxMDoi2KfZhNmG2YLZhCI7czoyNzoiUFNfTU1ZX01BS0VfUkVRVUlSRURfVEVYVF8xIjtzOjE3OiJDYXRlZ29yeSBSZWd1aXJlZCI7czoyNzoiUFNfTU1ZX01BS0VfUkVRVUlSRURfVEVYVF8yIjtzOjE5OiJDYXRlZ29yw61hIFJlZ3VpcmVkIjtzOjI3OiJQU19NTVlfTUFLRV9SRVFVSVJFRF9URVhUXzMiO3M6MTg6IkthdGVnb3JpZSBSZWd1aXJlZCI7czoyNzoiUFNfTU1ZX01BS0VfUkVRVUlSRURfVEVYVF80IjtzOjE5OiJUdXlhdSBkZSBjYXTDqWdvcmllIjtzOjI3OiJQU19NTVlfTUFLRV9SRVFVSVJFRF9URVhUXzUiO3M6MTk6IkNhdGVnb3JpYSBhc3RlcmlzY28iO3M6Mjc6IlBTX01NWV9NQUtFX1JFUVVJUkVEX1RFWFRfNiI7czoyNzoi2KfZhNmB2KbYqSDYsdmK2KzZiNmK2LHZitivIjtzOjI4OiJQU19NTVlfTU9ERUxfUkVRVUlSRURfVEVYVF8xIjtzOjE3OiJGZWF0dXJlcyBSZWd1aXJlZCI7czoyODoiUFNfTU1ZX01PREVMX1JFUVVJUkVEX1RFWFRfMiI7czoyNToiQ2FyYWN0ZXLDrXN0aWNhcyBSZWd1aXJlZCI7czoyODoiUFNfTU1ZX01PREVMX1JFUVVJUkVEX1RFWFRfMyI7czoxOToiRnVua3Rpb25lbiBSZWd1aXJlZCI7czoyODoiUFNfTU1ZX01PREVMX1JFUVVJUkVEX1RFWFRfNCI7czoyMzoiQ2FyYWN0w6lyaXN0aXF1ZXMgdHV5YXUiO3M6Mjg6IlBTX01NWV9NT0RFTF9SRVFVSVJFRF9URVhUXzUiO3M6MjU6IkNhcmF0dGVyaXN0aWNoZSBhc3RlcmlzY28iO3M6Mjg6IlBTX01NWV9NT0RFTF9SRVFVSVJFRF9URVhUXzYiO3M6Mjc6ItmF2YrYstin2Kog2LHZitis2YjZitix2YrYryI7czoyNzoiUFNfTU1ZX1lFQVJfUkVRVUlSRURfVEVYVF8xIjtzOjE4OiJUcmFuc3BvcnQgUmVndWlyZWQiO3M6Mjc6IlBTX01NWV9ZRUFSX1JFUVVJUkVEX1RFWFRfMiI7czoxOToiVHJhbnNwb3J0ZSBSZWd1aXJlZCI7czoyNzoiUFNfTU1ZX1lFQVJfUkVRVUlSRURfVEVYVF8zIjtzOjE4OiJUcmFuc3BvcnQgUmVndWlyZWQiO3M6Mjc6IlBTX01NWV9ZRUFSX1JFUVVJUkVEX1RFWFRfNCI7czoxODoiVHV5YXUgZGUgdHJhbnNwb3J0IjtzOjI3OiJQU19NTVlfWUVBUl9SRVFVSVJFRF9URVhUXzUiO3M6MjI6IkFzdGVyaXNjbyBkaSB0cmFzcG9ydG8iO3M6Mjc6IlBTX01NWV9ZRUFSX1JFUVVJUkVEX1RFWFRfNiI7czoyNzoi2LHZitis2YjZitix2YrYryDYp9mE2YbZgtmEIjtzOjI3OiJQU19NTVlfRklMVEVSX0JVVFRPTl9URVhUXzEiO3M6NjoiRmlsdGVyIjtzOjI3OiJQU19NTVlfRklMVEVSX0JVVFRPTl9URVhUXzIiO3M6NjoiRmlsdHJvIjtzOjI3OiJQU19NTVlfRklMVEVSX0JVVFRPTl9URVhUXzMiO3M6NjoiRmlsdGVyIjtzOjI3OiJQU19NTVlfRklMVEVSX0JVVFRPTl9URVhUXzQiO3M6NjoiRmlsdHJlIjtzOjI3OiJQU19NTVlfRklMVEVSX0JVVFRPTl9URVhUXzUiO3M6NjoiRmlsdHJvIjtzOjI3OiJQU19NTVlfRklMVEVSX0JVVFRPTl9URVhUXzYiO3M6MjM6Iti52KfZhdmEINin2YTYqti12YHZitipIjt9]]></value></config>
+</configurations>
+
+<fields objectName="LeopartsfilterMake" objectFile="make.php" searchField="id_shop">
+  <field><id>1</id><name><en><![CDATA[Sofa]]></en><es><![CDATA[Sofá]]></es><de><![CDATA[Sofa]]></de><fr><![CDATA[Canapé]]></fr><it><![CDATA[Divano]]></it><ar><![CDATA[أريكة]]></ar></name><date_add><![CDATA[2017-06-29]]></date_add><position>0</position><active>1</active></field>
+  <field><id>2</id><name><en><![CDATA[Chair]]></en><es><![CDATA[Silla]]></es><de><![CDATA[Stuhl]]></de><fr><![CDATA[Chaise]]></fr><it><![CDATA[Sedia]]></it><ar><![CDATA[كرسي]]></ar></name><date_add><![CDATA[2017-06-29]]></date_add><position>0</position><active>1</active></field>
+  <field><id>3</id><name><en><![CDATA[Table]]></en><es><![CDATA[Tabla]]></es><de><![CDATA[Tabelle]]></de><fr><![CDATA[Tableau]]></fr><it><![CDATA[Tavolo]]></it><ar><![CDATA[الجدول]]></ar></name><date_add><![CDATA[2017-06-29]]></date_add><position>0</position><active>1</active></field>
+</fields>
+<fields objectName="LeopartsfilterModel" objectFile="model.php" searchField="id_shop" parrentModelClass="LeopartsfilterMake"  parrentPrimaryKey="id_leopartsfilter_make" >
+  <field><id>1</id><id_leopartsfilter_make>1</id_leopartsfilter_make><name><en><![CDATA[Polyester]]></en><es><![CDATA[Poliéster]]></es><de><![CDATA[Polyester]]></de><fr><![CDATA[Polyester]]></fr><it><![CDATA[Poliestere]]></it><ar><![CDATA[البوليستر]]></ar></name><date_add><![CDATA[2017-06-29]]></date_add><position>0</position><active>1</active></field>
+  <field><id>2</id><id_leopartsfilter_make>2</id_leopartsfilter_make><name><en><![CDATA[Leather]]></en><es><![CDATA[Cuero]]></es><de><![CDATA[Leder]]></de><fr><![CDATA[En cuir]]></fr><it><![CDATA[In pelle]]></it><ar><![CDATA[الجلود]]></ar></name><date_add><![CDATA[2017-06-29]]></date_add><position>0</position><active>1</active></field>
+  <field><id>3</id><id_leopartsfilter_make>3</id_leopartsfilter_make><name><en><![CDATA[Wool]]></en><es><![CDATA[Lana]]></es><de><![CDATA[Wolle]]></de><fr><![CDATA[Laine]]></fr><it><![CDATA[Lana]]></it><ar><![CDATA[الصوف]]></ar></name><date_add><![CDATA[2017-06-29]]></date_add><position>0</position><active>1</active></field>
+  <field><id>4</id><id_leopartsfilter_make>1</id_leopartsfilter_make><name><en><![CDATA[Elastane]]></en><es><![CDATA[Elastano]]></es><de><![CDATA[Elastan]]></de><fr><![CDATA[Élasthanne]]></fr><it><![CDATA[Elastan]]></it><ar><![CDATA[الستان]]></ar></name><date_add><![CDATA[2017-06-29]]></date_add><position>0</position><active>1</active></field>
+  <field><id>5</id><id_leopartsfilter_make>2</id_leopartsfilter_make><name><en><![CDATA[Cotton]]></en><es><![CDATA[Algodón]]></es><de><![CDATA[Baumwolle]]></de><fr><![CDATA[Coton]]></fr><it><![CDATA[Cotone]]></it><ar><![CDATA[القطن]]></ar></name><date_add><![CDATA[2017-06-29]]></date_add><position>0</position><active>1</active></field>
+</fields>
+<fields objectName="LeopartsfilterYear" objectFile="year.php" searchField="id_shop" parrentModelClass="LeopartsfilterMake,LeopartsfilterModel"  parrentPrimaryKey="id_leopartsfilter_make, id_leopartsfilter_model" >
+  <field><id>1</id><id_leopartsfilter_make>2</id_leopartsfilter_make><id_leopartsfilter_model>5</id_leopartsfilter_model><name><en><![CDATA[Free Ship]]></en><es><![CDATA[Barco gratis]]></es><de><![CDATA[Frei Schiff]]></de><fr><![CDATA[Navire gratuit]]></fr><it><![CDATA[Nave gratis]]></it><ar><![CDATA[السفينة مجاناً]]></ar></name><date_add><![CDATA[2017-06-29]]></date_add><position>0</position><active>1</active></field>
+  <field><id>2</id><id_leopartsfilter_make>3</id_leopartsfilter_make><id_leopartsfilter_model>3</id_leopartsfilter_model><name><en><![CDATA[Ship COD]]></en><es><![CDATA[Nave de bacalao]]></es><de><![CDATA[Schiff COD]]></de><fr><![CDATA[Navire COD]]></fr><it><![CDATA[Nave COD]]></it><ar><![CDATA[سفينة القد]]></ar></name><date_add><![CDATA[2017-06-29]]></date_add><position>0</position><active>1</active></field>
+  <field><id>3</id><id_leopartsfilter_make>1</id_leopartsfilter_make><id_leopartsfilter_model>4</id_leopartsfilter_model><name><en><![CDATA[Free Ship]]></en><es><![CDATA[Barco gratis]]></es><de><![CDATA[Frei Schiff]]></de><fr><![CDATA[Navire gratuit]]></fr><it><![CDATA[Nave gratis]]></it><ar><![CDATA[السفينة مجاناً]]></ar></name><date_add><![CDATA[2017-06-29]]></date_add><position>0</position><active>1</active></field>
+  <field><id>4</id><id_leopartsfilter_make>1</id_leopartsfilter_make><id_leopartsfilter_model>3</id_leopartsfilter_model><name><en><![CDATA[Free Ship]]></en><es><![CDATA[Barco gratis]]></es><de><![CDATA[Frei Schiff]]></de><fr><![CDATA[Navire gratuit]]></fr><it><![CDATA[Nave gratis]]></it><ar><![CDATA[السفينة مجاناً]]></ar></name><date_add><![CDATA[2017-06-29]]></date_add><position>0</position><active>1</active></field>
+  <field><id>5</id><id_leopartsfilter_make>2</id_leopartsfilter_make><id_leopartsfilter_model>2</id_leopartsfilter_model><name><en><![CDATA[Ship COD]]></en><es><![CDATA[Nave de bacalao]]></es><de><![CDATA[Schiff COD]]></de><fr><![CDATA[Navire COD]]></fr><it><![CDATA[Nave COD]]></it><ar><![CDATA[سفينة القد]]></ar></name><date_add><![CDATA[2017-06-29]]></date_add><position>0</position><active>1</active></field>
+  <field><id>6</id><id_leopartsfilter_make>2</id_leopartsfilter_make><id_leopartsfilter_model>1</id_leopartsfilter_model><name><en><![CDATA[Free Ship]]></en><es><![CDATA[Barco gratis]]></es><de><![CDATA[Frei Schiff]]></de><fr><![CDATA[Navire gratuit]]></fr><it><![CDATA[Nave gratis]]></it><ar><![CDATA[السفينة مجاناً]]></ar></name><date_add><![CDATA[2017-06-29]]></date_add><position>0</position><active>1</active></field>
+  <field><id>7</id><id_leopartsfilter_make>2</id_leopartsfilter_make><id_leopartsfilter_model>2</id_leopartsfilter_model><name><en><![CDATA[Free Ship]]></en><es><![CDATA[Barco gratis]]></es><de><![CDATA[Frei Schiff]]></de><fr><![CDATA[Navire gratuit]]></fr><it><![CDATA[Nave gratis]]></it><ar><![CDATA[السفينة مجاناً]]></ar></name><date_add><![CDATA[2017-06-29]]></date_add><position>0</position><active>1</active></field>
+  <field><id>8</id><id_leopartsfilter_make>2</id_leopartsfilter_make><id_leopartsfilter_model>5</id_leopartsfilter_model><name><en><![CDATA[Other]]></en><es><![CDATA[Otros]]></es><de><![CDATA[Andere]]></de><fr><![CDATA[Autres]]></fr><it><![CDATA[Altri]]></it><ar><![CDATA[الأخرى]]></ar></name><date_add><![CDATA[2017-06-29]]></date_add><position>0</position><active>1</active></field>
+  <field><id>9</id><id_leopartsfilter_make>2</id_leopartsfilter_make><id_leopartsfilter_model>2</id_leopartsfilter_model><name><en><![CDATA[Other]]></en><es><![CDATA[Otros]]></es><de><![CDATA[Andere]]></de><fr><![CDATA[Autres]]></fr><it><![CDATA[Altri]]></it><ar><![CDATA[الأخرى]]></ar></name><date_add><![CDATA[2017-06-29]]></date_add><position>0</position><active>1</active></field>
+  <field><id>10</id><id_leopartsfilter_make>2</id_leopartsfilter_make><id_leopartsfilter_model>4</id_leopartsfilter_model><name><en><![CDATA[Other]]></en><es><![CDATA[Otros]]></es><de><![CDATA[Andere]]></de><fr><![CDATA[Autres]]></fr><it><![CDATA[Altri]]></it><ar><![CDATA[الأخرى]]></ar></name><date_add><![CDATA[2017-06-29]]></date_add><position>0</position><active>1</active></field>
+  <field><id>11</id><id_leopartsfilter_make>1</id_leopartsfilter_make><id_leopartsfilter_model>1</id_leopartsfilter_model><name><en><![CDATA[Other]]></en><es><![CDATA[Otros]]></es><de><![CDATA[Andere]]></de><fr><![CDATA[Autres]]></fr><it><![CDATA[Altri]]></it><ar><![CDATA[الأخرى]]></ar></name><date_add><![CDATA[2017-06-29]]></date_add><position>0</position><active>1</active></field>
+</fields>
+<sql>
+<![CDATA[CREATE TABLE IF NOT EXISTS `PREFIX_leopartsfilter_make` (
+  `id_leopartsfilter_make` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `position` int(11) DEFAULT NULL,
+  `active` tinyint(1) DEFAULT NULL,
+  `date_add` date DEFAULT NULL,
+  PRIMARY KEY (`id_leopartsfilter_make`)
+) ENGINE=ENGINE_TYPE AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+
+CREATE TABLE IF NOT EXISTS `PREFIX_leopartsfilter_make_lang` (
+  `id_leopartsfilter_make` int(11) unsigned NOT NULL,
+  `name` varchar(255) DEFAULT NULL,
+  `id_lang` int(11) unsigned NOT NULL,
+  PRIMARY KEY (`id_leopartsfilter_make`,`id_lang`)
+) ENGINE=ENGINE_TYPE DEFAULT CHARSET=utf8;
+
+CREATE TABLE IF NOT EXISTS `PREFIX_leopartsfilter_make_shop` (
+  `id_leopartsfilter_make` int(10) unsigned NOT NULL,
+  `id_shop` int(10) unsigned NOT NULL,
+  PRIMARY KEY (`id_leopartsfilter_make`,`id_shop`)
+) ENGINE=ENGINE_TYPE DEFAULT CHARSET=utf8;
+
+CREATE TABLE IF NOT EXISTS `PREFIX_leopartsfilter_model` (
+  `id_leopartsfilter_model` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `position` int(11) DEFAULT NULL,
+  `active` tinyint(1) DEFAULT NULL,
+  `date_add` date DEFAULT NULL,
+  `id_leopartsfilter_make` int(11) unsigned NOT NULL,
+  PRIMARY KEY (`id_leopartsfilter_model`,`id_leopartsfilter_make`)
+) ENGINE=ENGINE_TYPE AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
+
+CREATE TABLE IF NOT EXISTS `PREFIX_leopartsfilter_model_lang` (
+  `id_leopartsfilter_model` int(11) unsigned NOT NULL,
+  `name` varchar(255) DEFAULT NULL,
+  `id_lang` int(11) unsigned NOT NULL,
+  PRIMARY KEY (`id_leopartsfilter_model`,`id_lang`)
+) ENGINE=ENGINE_TYPE DEFAULT CHARSET=utf8;
+
+CREATE TABLE IF NOT EXISTS `PREFIX_leopartsfilter_model_shop` (
+  `id_leopartsfilter_model` int(11) unsigned NOT NULL,
+  `id_shop` int(11) unsigned NOT NULL,
+  PRIMARY KEY (`id_leopartsfilter_model`,`id_shop`)
+) ENGINE=ENGINE_TYPE DEFAULT CHARSET=utf8;
+
+CREATE TABLE IF NOT EXISTS `PREFIX_leopartsfilter_product` (
+  `id_product` int(11) unsigned NOT NULL,
+  `id_leopartsfilter_make` int(11) unsigned NOT NULL,
+  `id_leopartsfilter_model` int(11) unsigned NOT NULL,
+  `id_leopartsfilter_year` int(11) unsigned NOT NULL,
+  PRIMARY KEY (`id_product`,`id_leopartsfilter_make`,`id_leopartsfilter_model`,`id_leopartsfilter_year`)
+) ENGINE=ENGINE_TYPE DEFAULT CHARSET=utf8;
+
+CREATE TABLE IF NOT EXISTS `PREFIX_leopartsfilter_year` (
+  `id_leopartsfilter_year` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `position` int(11) DEFAULT NULL,
+  `active` tinyint(1) DEFAULT NULL,
+  `date_add` date DEFAULT NULL,
+  `id_leopartsfilter_make` int(11) unsigned NOT NULL,
+  `id_leopartsfilter_model` int(11) unsigned NOT NULL,
+  PRIMARY KEY (`id_leopartsfilter_year`,`id_leopartsfilter_make`,`id_leopartsfilter_model`)
+) ENGINE=ENGINE_TYPE AUTO_INCREMENT=12 DEFAULT CHARSET=utf8;
+
+CREATE TABLE IF NOT EXISTS `PREFIX_leopartsfilter_year_lang` (
+  `id_leopartsfilter_year` int(11) unsigned NOT NULL,
+  `name` varchar(255) DEFAULT NULL,
+  `id_lang` int(11) unsigned NOT NULL,
+  PRIMARY KEY (`id_leopartsfilter_year`,`id_lang`)
+) ENGINE=ENGINE_TYPE DEFAULT CHARSET=utf8;
+
+CREATE TABLE IF NOT EXISTS `PREFIX_leopartsfilter_year_shop` (
+  `id_leopartsfilter_year` int(11) unsigned NOT NULL,
+  `id_shop` int(11) unsigned NOT NULL,
+  PRIMARY KEY (`id_leopartsfilter_year`,`id_shop`)
+) ENGINE=ENGINE_TYPE DEFAULT CHARSET=utf8;
+
+]]></sql>
+
+  <hooks>
+    <hook module="leopartsfilter" hook="displayLeftColumn" position="12" exceptions=""/>
+    <hook module="leopartsfilter" hook="Header" position="11" exceptions=""/>
+    <hook module="leopartsfilter" hook="actionProductUpdate" position="6" exceptions=""/>
+    <hook module="leopartsfilter" hook="displayBackOfficeHeader" position="5" exceptions=""/>
+    <hook module="leopartsfilter" hook="displayAdminProductsExtra" position="1" exceptions=""/>
+  </hooks>
+</dataSample>

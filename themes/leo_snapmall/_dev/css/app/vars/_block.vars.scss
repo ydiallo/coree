@@ -1,0 +1,33 @@
+// Block Modules 
+// ========================================================================
+
+$block-margin-bottom: 			 	40px !default;
+
+// Heading Block
+$block-heading-bg:				    transparent !default;
+$block-heading-color:			    #222222 !default;
+$block-heading-font-family:    	    $headings-font-family !default;
+$block-heading-font-size:		    18px !default;
+$block-heading-font-weight:         bold !default;
+$block-heading-padding: 		    0px !default;
+$block-heading-margin: 		        0px !default;
+$block-heading-transform:           uppercase !default;
+$block-heading-line-height:         normal !default;
+$block-heading-letter-spacing:      0px !default; 
+$block-heading-radius: 			    0px;
+$block-heading-border: 			    none !default;
+
+// Heading Content
+$block-content-bg:				    $white !default;
+$block-content-border:			    none !default;
+$block-content-padding:			    15px 0 0  !default;
+$block-content-margin:         	    10px !default;
+$block-content-radius:         	    0px !default;
+
+// get content icon from link http://fortawesome.github.io/Font-Awesome/icons/ or img icon from theme folder 
+$block-icon-content:         	    "\f0c9" !default; 
+
+// Block Highlighted
+$block-highlighted-bg:              $theme-color-default !default;
+$block-highlighted-border:          $theme-color-default !default;
+$block-highlighted-text:            $white !default;

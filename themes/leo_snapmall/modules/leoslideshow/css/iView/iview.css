@@ -1,0 +1,528 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/*Preview Admin */
+#module-leoslideshow-preview .container {
+  width: 100%; }
+#module-leoslideshow-preview .content-only {
+  overflow: hidden; }
+#module-leoslideshow-preview #leo-paneltool {
+  display: none; }
+
+/* The slider */
+.iviewSlider {
+  overflow: hidden; }
+
+/* The timer in the Slider */
+.iview-timer {
+  position: absolute;
+  z-index: 100;
+  cursor: pointer;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px; }
+  .iview-timer div {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px; }
+
+/* The Preloader in the Slider */
+.iview-preloader {
+  position: absolute;
+  z-index: 1000;
+  border: #000000 1px solid;
+  padding: 1px;
+  width: 100px;
+  height: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px; }
+  .iview-preloader div {
+    background: #000000;
+    float: left;
+    width: 0px;
+    height: 3px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px; }
+
+/* The strips and boxes in the Slider */
+.iview-strip, .iview-block {
+  display: block;
+  position: absolute;
+  z-index: 5; }
+
+/* Direction nav styles (e.g. Next & Prev) */
+.iview-directionNav a {
+  position: absolute;
+  top: 50%;
+  z-index: 9;
+  cursor: pointer;
+  color: transparent !important;
+  text-align: center;
+  margin-top: -22.5px;
+  width: 45px;
+  height: 45px;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+  .iview-directionNav a:before {
+    content: "";
+    display: block;
+    font-family: "Material Icons";
+    font-size: 14px;
+    text-indent: 0px;
+    line-height: 45px;
+    color: #FFFFFF;
+    font-weight: normal;
+    background: rgba(51, 51, 51, 0.5);
+    border-radius: 50%;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+  .iview-directionNav a.iview-prevNav {
+    left: -50px; }
+    .iview-directionNav a.iview-prevNav:before {
+      content: "\E5C4"; }
+  .iview-directionNav a.iview-nextNav {
+    right: -50px; }
+    .iview-directionNav a.iview-nextNav:before {
+      content: "\E5C8"; }
+  .iview-directionNav a:hover:before {
+    color: #FFFFFF;
+    background: #ffba57; }
+  @media (max-width: 600px) {
+    .iview-directionNav a {
+      margin-top: -15px;
+      width: 30px;
+      height: 30px; }
+      .iview-directionNav a:before {
+        font-size: 12px;
+        line-height: 30px; } }
+
+.iview.iview-hover .iview-directionNav a.iview-prevNav {
+  left: 15px; }
+.iview.iview-hover .iview-directionNav a.iview-nextNav {
+  right: 15px; }
+.iview.iview-hover .iview-controlNav div.iview-items {
+  opacity: 1;
+  filter: alpha(opacity=100); }
+
+/* Control nav styles (e.g. 1,2,3...) */
+@media (max-width: 991px) {
+  .iview-controlNav {
+    display: none; } }
+.iview-controlNav div.iview-items {
+  z-index: 25;
+  position: absolute;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  bottom: 10px;
+  -webkit-transition: opacity 0.2s ease-out;
+  -o-transition: opacity 0.2s ease-out;
+  transition: opacity 0.2s ease-out;
+  opacity: 0;
+  filter: alpha(opacity=0); }
+  .iview-controlNav div.iview-items ul {
+    margin-bottom: 0px; }
+    .iview-controlNav div.iview-items ul li {
+      display: inline-block;
+      position: relative;
+      height: 10px;
+      padding: 0px; }
+      .iview-controlNav div.iview-items ul li a.iview-control {
+        background-color: #FFFFFF;
+        text-indent: -9999px;
+        display: inline-block;
+        cursor: pointer;
+        margin: 0px 4px;
+        width: 10px;
+        height: 10px;
+        -webkit-border-radius: 100%;
+        -moz-border-radius: 100%;
+        -ms-border-radius: 100%;
+        -o-border-radius: 100%;
+        border-radius: 100%;
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease; }
+        .iview-controlNav div.iview-items ul li a.iview-control.active, .iview-controlNav div.iview-items ul li a.iview-control:hover {
+          background: #ffba57;
+          -webkit-transform: scale(1.1);
+          -moz-transform: scale(1.1);
+          -ms-transform: scale(1.1);
+          -o-transform: scale(1.1);
+          transform: scale(1.1); }
+  .iview-controlNav div.iview-items.customHtmlBullet {
+    padding: 0px;
+    height: 96px;
+    width: 100%;
+    background: #FFF;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-align: left;
+    z-index: 3; }
+    .iview-controlNav div.iview-items.customHtmlBullet ul li {
+      width: 33%;
+      height: 96px;
+      float: left;
+      padding: 0; }
+    .iview-controlNav div.iview-items.customHtmlBullet a.iview-control {
+      padding: 20px 25px 20px 16%;
+      float: left;
+      width: 100%;
+      height: 100%;
+      color: #272727;
+      background: none;
+      text-transform: uppercase;
+      border-left: 1px solid #DDD;
+      -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      -ms-border-radius: 0;
+      -o-border-radius: 0;
+      border-radius: 0;
+      text-indent: inherit;
+      margin: 0; }
+      .iview-controlNav div.iview-items.customHtmlBullet a.iview-control.active, .iview-controlNav div.iview-items.customHtmlBullet a.iview-control:hover {
+        background: #fafafa;
+        cursor: pointer; }
+        .iview-controlNav div.iview-items.customHtmlBullet a.iview-control.active:after, .iview-controlNav div.iview-items.customHtmlBullet a.iview-control:hover:after {
+          font-family: "FontAwesome";
+          content: "\f0d8";
+          position: absolute;
+          top: -33px;
+          right: auto;
+          left: 50%;
+          margin-left: -10px;
+          font-size: 40px;
+          color: #fafafa; }
+        .iview-controlNav div.iview-items.customHtmlBullet a.iview-control.active span, .iview-controlNav div.iview-items.customHtmlBullet a.iview-control:hover span {
+          background-color: #ffba57;
+          color: #FFFFFF; }
+      .iview-controlNav div.iview-items.customHtmlBullet a.iview-control h5 {
+        color: #272727;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: "Roboto", sans-serif;
+        line-height: 20px; }
+      .iview-controlNav div.iview-items.customHtmlBullet a.iview-control span {
+        -webkit-border-radius: 100%;
+        -moz-border-radius: 100%;
+        -ms-border-radius: 100%;
+        -o-border-radius: 100%;
+        border-radius: 100%;
+        -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
+        -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
+        -o-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
+        -ms-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
+        background: #eaeaea;
+        width: 56px;
+        height: 56px;
+        line-height: 56px;
+        color: #272727;
+        display: inline-block;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-size: 18px;
+        margin: 0 18px 0 0;
+        float: left; }
+      .iview-controlNav div.iview-items.customHtmlBullet a.iview-control p {
+        margin: 0;
+        color: #999999; }
+.iview-controlNav.iview-thumbnail div.iview-items {
+  bottom: 0; }
+  .iview-controlNav.iview-thumbnail div.iview-items ul li {
+    width: 200px;
+    height: auto;
+    overflow: hidden;
+    vertical-align: bottom; }
+    .iview-controlNav.iview-thumbnail div.iview-items ul li a {
+      width: 100%;
+      height: auto;
+      margin: 0;
+      text-indent: inherit;
+      background: transparent;
+      -webkit-transition: all 0.3s ease-out;
+      -o-transition: all 0.3s ease-out;
+      transition: all 0.3s ease-out; }
+      .iview-controlNav.iview-thumbnail div.iview-items ul li a.active, .iview-controlNav.iview-thumbnail div.iview-items ul li a:hover {
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1); }
+      .iview-controlNav.iview-thumbnail div.iview-items ul li a img {
+        max-width: 100%;
+        height: auto; }
+
+@media (min-width: 992px) {
+  .slide-custom-html .iview {
+    margin-right: 272px; }
+    .rtl .slide-custom-html .iview {
+      margin-left: 272px;
+      margin-right: inherit; } }
+  @media (min-width: 992px) and (max-width: 1229px) {
+    .slide-custom-html .iview {
+      margin-right: 222px; }
+      .rtl .slide-custom-html .iview {
+        margin-left: 222px;
+        margin-right: inherit; } }
+@media (min-width: 992px) {
+  .slide-custom-html .iview-controlNav {
+    width: 272px;
+    top: 0;
+    position: absolute;
+    right: 0%; }
+    .rtl .slide-custom-html .iview-controlNav {
+      left: 0%;
+      right: auto; } }
+  @media (min-width: 992px) and (max-width: 1229px) {
+    .slide-custom-html .iview-controlNav {
+      width: 222px; } }
+@media (min-width: 992px) {
+  .slide-custom-html .iview-controlNav {
+    opacity: 1;
+    filter: alpha(opacity=100); }
+    .slide-custom-html .iview-controlNav div.iview-items {
+      position: static;
+      opacity: 1;
+      filter: alpha(opacity=100); }
+      .slide-custom-html .iview-controlNav div.iview-items.customHtmlBullet {
+        height: auto; }
+        .slide-custom-html .iview-controlNav div.iview-items.customHtmlBullet ul::after {
+          content: "";
+          display: table;
+          clear: both; }
+        .slide-custom-html .iview-controlNav div.iview-items.customHtmlBullet ul li {
+          width: 100%;
+          height: auto; }
+          .slide-custom-html .iview-controlNav div.iview-items.customHtmlBullet ul li + li {
+            border-top: 1px solid #FFFFFF; }
+        .slide-custom-html .iview-controlNav div.iview-items.customHtmlBullet a.iview-control {
+          background: #f1f1f1;
+          display: table;
+          border: none;
+          padding: 31.5px 20px 31.5px 0px;
+          -webkit-transition: all 0.5s ease;
+          -o-transition: all 0.5s ease;
+          transition: all 0.5s ease; }
+          .rtl .slide-custom-html .iview-controlNav div.iview-items.customHtmlBullet a.iview-control {
+            padding: 31.5px 0px 31.5px 20px; } }
+        @media (min-width: 992px) and (max-width: 1229px) and (min-width: 991px) {
+          .slide-custom-html .iview-controlNav div.iview-items.customHtmlBullet a.iview-control {
+            padding: 22.4px 20px 22.4px 0px; }
+            .rtl .slide-custom-html .iview-controlNav div.iview-items.customHtmlBullet a.iview-control {
+              padding: 22.4px 0px 22.4px 20px; } }
+@media (min-width: 992px) {
+          .slide-custom-html .iview-controlNav div.iview-items.customHtmlBullet a.iview-control:after {
+            content: "\f0d9";
+            top: 50%;
+            bottom: auto;
+            font-size: 40px;
+            color: #33425a;
+            position: absolute;
+            visibility: hidden;
+            opacity: 0;
+            filter: alpha(opacity=0);
+            margin: 0 -2px 0 0;
+            -webkit-transform: translateY(-50%);
+            -moz-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            -o-transform: translateY(-50%);
+            transform: translateY(-50%);
+            right: 100%;
+            left: auto; }
+            .rtl .slide-custom-html .iview-controlNav div.iview-items.customHtmlBullet a.iview-control:after {
+              margin: 0 0 0 -2px; }
+            .rtl .slide-custom-html .iview-controlNav div.iview-items.customHtmlBullet a.iview-control:after {
+              right: auto;
+              left: 100%; }
+          .slide-custom-html .iview-controlNav div.iview-items.customHtmlBullet a.iview-control.active, .slide-custom-html .iview-controlNav div.iview-items.customHtmlBullet a.iview-control:hover {
+            background: #33425a;
+            -webkit-transform: scale(1);
+            -moz-transform: scale(1);
+            -ms-transform: scale(1);
+            -o-transform: scale(1);
+            transform: scale(1); }
+            .slide-custom-html .iview-controlNav div.iview-items.customHtmlBullet a.iview-control.active span, .slide-custom-html .iview-controlNav div.iview-items.customHtmlBullet a.iview-control:hover span {
+              color: #FFFFFF; }
+            .slide-custom-html .iview-controlNav div.iview-items.customHtmlBullet a.iview-control.active h3, .slide-custom-html .iview-controlNav div.iview-items.customHtmlBullet a.iview-control.active p, .slide-custom-html .iview-controlNav div.iview-items.customHtmlBullet a.iview-control:hover h3, .slide-custom-html .iview-controlNav div.iview-items.customHtmlBullet a.iview-control:hover p {
+              color: #ffba57; }
+          .slide-custom-html .iview-controlNav div.iview-items.customHtmlBullet a.iview-control.active:after {
+            visibility: visible;
+            opacity: 1;
+            filter: alpha(opacity=100); }
+          .slide-custom-html .iview-controlNav div.iview-items.customHtmlBullet a.iview-control h3 {
+            font-size: 14px;
+            color: #333333;
+            line-height: 1.3; }
+          .slide-custom-html .iview-controlNav div.iview-items.customHtmlBullet a.iview-control p {
+            text-transform: none;
+            line-height: 1.3; }
+          .slide-custom-html .iview-controlNav div.iview-items.customHtmlBullet a.iview-control span {
+            width: 80px;
+            height: auto;
+            float: none;
+            font-size: 26px;
+            direction: ltr;
+            line-height: normal;
+            display: table-cell;
+            font-weight: 300;
+            color: #999999;
+            vertical-align: middle;
+            background: transparent;
+            font-family: 'Oswald', sans-serif;
+            margin-right: 0px;
+            border-radius: 0px;
+            -moz-box-shadow: none;
+            -webkit-box-shadow: none;
+            -o-box-shadow: none;
+            -ms-box-shadow: none;
+            box-shadow: none; }
+            .rtl .slide-custom-html .iview-controlNav div.iview-items.customHtmlBullet a.iview-control span {
+              margin-left: 0px;
+              margin-right: inherit; } }
+          @media (min-width: 992px) and (max-width: 1229px) {
+            .slide-custom-html .iview-controlNav div.iview-items.customHtmlBullet a.iview-control span {
+              width: 60px; } }
+@media (min-width: 992px) {
+            .slide-custom-html .iview-controlNav div.iview-items.customHtmlBullet a.iview-control span:nth-child(1):before, .slide-custom-html .iview-controlNav div.iview-items.customHtmlBullet a.iview-control span:nth-child(2):before, .slide-custom-html .iview-controlNav div.iview-items.customHtmlBullet a.iview-control span:nth-child(3):before, .slide-custom-html .iview-controlNav div.iview-items.customHtmlBullet a.iview-control span:nth-child(4):before, .slide-custom-html .iview-controlNav div.iview-items.customHtmlBullet a.iview-control span:nth-child(5):before, .slide-custom-html .iview-controlNav div.iview-items.customHtmlBullet a.iview-control span:nth-child(6):before, .slide-custom-html .iview-controlNav div.iview-items.customHtmlBullet a.iview-control span:nth-child(7):before, .slide-custom-html .iview-controlNav div.iview-items.customHtmlBullet a.iview-control span:nth-child(8):before, .slide-custom-html .iview-controlNav div.iview-items.customHtmlBullet a.iview-control span:nth-child(9):before {
+              content: '0';
+              display: inline-block; }
+  .slide-custom-html .iview-directionNav a {
+    top: auto;
+    bottom: 15px; }
+    .slide-custom-html .iview-directionNav a.iview-prevNav {
+      right: 272px;
+      left: auto;
+      margin-right: 70px; }
+      .rtl .slide-custom-html .iview-directionNav a.iview-prevNav {
+        right: auto;
+        left: 272px; }
+      .rtl .slide-custom-html .iview-directionNav a.iview-prevNav {
+        margin-left: 70px;
+        margin-right: inherit; } }
+    @media (min-width: 992px) and (max-width: 1229px) {
+      .slide-custom-html .iview-directionNav a.iview-prevNav {
+        right: 222px;
+        left: auto; }
+        .rtl .slide-custom-html .iview-directionNav a.iview-prevNav {
+          right: auto;
+          left: 222px; } }
+@media (min-width: 992px) {
+    .slide-custom-html .iview-directionNav a.iview-nextNav {
+      right: 272px;
+      left: auto;
+      margin-right: 15px; }
+      .rtl .slide-custom-html .iview-directionNav a.iview-nextNav {
+        right: auto;
+        left: 272px; }
+      .rtl .slide-custom-html .iview-directionNav a.iview-nextNav {
+        margin-left: 15px;
+        margin-right: inherit; } }
+    @media (min-width: 992px) and (max-width: 1229px) {
+      .slide-custom-html .iview-directionNav a.iview-nextNav {
+        right: 222px;
+        left: auto; }
+        .rtl .slide-custom-html .iview-directionNav a.iview-nextNav {
+          right: auto;
+          left: 222px; } }
+@media (min-width: 992px) {
+  .slide-custom-html .iview.iview-hover .iview-directionNav a.iview-prevNav {
+    right: 272px;
+    left: auto;
+    margin-right: 70px; }
+    .rtl .slide-custom-html .iview.iview-hover .iview-directionNav a.iview-prevNav {
+      right: auto;
+      left: 272px; }
+    .rtl .slide-custom-html .iview.iview-hover .iview-directionNav a.iview-prevNav {
+      margin-left: 70px;
+      margin-right: inherit; } }
+  @media (min-width: 992px) and (max-width: 1229px) {
+    .slide-custom-html .iview.iview-hover .iview-directionNav a.iview-prevNav {
+      right: 222px;
+      left: auto; }
+      .rtl .slide-custom-html .iview.iview-hover .iview-directionNav a.iview-prevNav {
+        right: auto;
+        left: 222px; } }
+@media (min-width: 992px) {
+  .slide-custom-html .iview.iview-hover .iview-directionNav a.iview-nextNav {
+    right: 272px;
+    left: auto;
+    margin-right: 15px; }
+    .rtl .slide-custom-html .iview.iview-hover .iview-directionNav a.iview-nextNav {
+      right: auto;
+      left: 272px; }
+    .rtl .slide-custom-html .iview.iview-hover .iview-directionNav a.iview-nextNav {
+      margin-left: 15px;
+      margin-right: inherit; } }
+  @media (min-width: 992px) and (max-width: 1229px) {
+    .slide-custom-html .iview.iview-hover .iview-directionNav a.iview-nextNav {
+      right: 222px;
+      left: auto; }
+      .rtl .slide-custom-html .iview.iview-hover .iview-directionNav a.iview-nextNav {
+        right: auto;
+        left: 222px; } }
+
+/* The video show in the Slider */
+.iview-video-show {
+  background: #000;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 101; }
+  .iview-video-show .iview-video-container {
+    position: relative;
+    width: 100%;
+    height: 100%; }
+    .iview-video-show .iview-video-container a.iview-video-close {
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      background: #222;
+      color: #FFFFFF;
+      text-align: center;
+      line-height: 29px;
+      font-size: 22px;
+      font-weight: bold;
+      overflow: hidden;
+      width: 20px;
+      height: 20px;
+      -webkit-border-radius: 15px;
+      -moz-border-radius: 15px;
+      -ms-border-radius: 15px;
+      -o-border-radius: 15px;
+      border-radius: 15px; }
+      .iview-video-show .iview-video-container a.iview-video-close:hover {
+        background: #444; }
+
+/*# sourceMappingURL=iview.css.map */

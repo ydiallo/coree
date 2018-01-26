@@ -1,0 +1,16 @@
+/**************************************************
+	Changelog Of Prestashop 1.7.1.2
+**************************************************/
+**** File css ****
+- \assets\css\theme.css
+
+**** File JS ****
+- \_dev\js\cart.js
+- \_dev\js\checkout.js
+- \assets\js\theme.js
+
+**** File TPL ****
+- \templates\checkout\_partials\cart-detailed-product-line.tpl
+- \templates\catalog\_partials\facets.tpl
+- \templates\catalog\listing\category.tpl
+- \modules\contactform\views\templates\widget\contactform.tpl

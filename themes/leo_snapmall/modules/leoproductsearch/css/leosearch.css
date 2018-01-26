@@ -1,0 +1,165 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+#leo_search_block_top {
+  width: 100%; }
+  #leo_search_block_top .icon-open-search {
+    display: none; }
+  #leo_search_block_top .title_block {
+    display: none; }
+  #leo_search_block_top form > label {
+    display: none; }
+  #leo_search_block_top .block_content {
+    border: 1px solid #e1e1e1;
+    position: relative;
+    padding-right: 45px; }
+    .rtl #leo_search_block_top .block_content {
+      padding-left: 45px;
+      padding-right: inherit; }
+    #leo_search_block_top .block_content .list-cate-wrapper {
+      width: 25%;
+      color: #6b6a74;
+      background: #f1f1f1;
+      position: relative;
+      float: right; }
+      .rtl #leo_search_block_top .block_content .list-cate-wrapper {
+        float: left; }
+      @media (min-width: 992px) and (max-width: 1199px) {
+        #leo_search_block_top .block_content .list-cate-wrapper {
+          width: 30%; } }
+      @media (max-width: 991px) {
+        #leo_search_block_top .block_content .list-cate-wrapper {
+          width: 35%; } }
+      @media (max-width: 767px) {
+        #leo_search_block_top .block_content .list-cate-wrapper {
+          display: none; } }
+      #leo_search_block_top .block_content .list-cate-wrapper:before {
+        content: '';
+        width: 1px;
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        border-left: 1px solid #e1e1e1;
+        left: 0px; }
+        .rtl #leo_search_block_top .block_content .list-cate-wrapper:before {
+          right: 0px;
+          left: auto; }
+      #leo_search_block_top .block_content .list-cate-wrapper i {
+        top: 50%;
+        font-size: 15px;
+        position: absolute;
+        margin-top: -6px;
+        direction: ltr !important;
+        right: 6px; }
+        .rtl #leo_search_block_top .block_content .list-cate-wrapper i {
+          left: 6px;
+          right: auto; }
+      #leo_search_block_top .block_content .list-cate-wrapper .select-title {
+        height: 43px;
+        line-height: 43px;
+        cursor: pointer;
+        display: block;
+        overflow: hidden;
+        padding: 0 20px 0 15px; }
+        .rtl #leo_search_block_top .block_content .list-cate-wrapper .select-title {
+          padding: 0 15px 0 20px; }
+        #leo_search_block_top .block_content .list-cate-wrapper .select-title:hover {
+          color: #ffba57; }
+        #leo_search_block_top .block_content .list-cate-wrapper .select-title span {
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 1;
+          -webkit-box-orient: vertical; }
+      #leo_search_block_top .block_content .list-cate-wrapper .list-cate {
+        padding: 0;
+        margin-top: 0;
+        min-width: auto;
+        border: none;
+        border-radius: 0px;
+        right: -46px;
+        left: 0px;
+        -moz-box-shadow: 0px 1px 1px 0px rgba(102, 102, 102, 0.35);
+        -webkit-box-shadow: 0px 1px 1px 0px rgba(102, 102, 102, 0.35);
+        -o-box-shadow: 0px 1px 1px 0px rgba(102, 102, 102, 0.35);
+        -ms-box-shadow: 0px 1px 1px 0px rgba(102, 102, 102, 0.35);
+        box-shadow: 0px 1px 1px 0px rgba(102, 102, 102, 0.35); }
+        .rtl #leo_search_block_top .block_content .list-cate-wrapper .list-cate {
+          right: 0px;
+          left: -46px; }
+        #leo_search_block_top .block_content .list-cate-wrapper .list-cate a {
+          display: block;
+          padding: 5px;
+          font-size: 14px; }
+          #leo_search_block_top .block_content .list-cate-wrapper .list-cate a.active {
+            color: #FFFFFF;
+            background: #ffba57; }
+          #leo_search_block_top .block_content .list-cate-wrapper .list-cate a:hover {
+            color: #FFFFFF;
+            background: #ffba57; }
+    #leo_search_block_top .block_content .search_query {
+      height: 43px;
+      width: 75%;
+      padding: 6px 12px;
+      background: #FFFFFF;
+      float: left;
+      border-radius: 0px; }
+      .rtl #leo_search_block_top .block_content .search_query {
+        float: right; }
+      @media (min-width: 992px) and (max-width: 1199px) {
+        #leo_search_block_top .block_content .search_query {
+          width: 70%; } }
+      @media (max-width: 991px) {
+        #leo_search_block_top .block_content .search_query {
+          width: 65%; } }
+      @media (max-width: 767px) {
+        #leo_search_block_top .block_content .search_query {
+          width: 100%; } }
+      #leo_search_block_top .block_content .search_query:focus {
+        outline: 0; }
+    #leo_search_block_top .block_content #leo_search_top_button {
+      top: -1px;
+      width: 46px;
+      height: 45px;
+      padding: 0px;
+      z-index: 9;
+      font-size: 18px;
+      position: absolute;
+      font-weight: bold;
+      background: #ffba57;
+      right: -1px;
+      border-radius: 0;
+      -webkit-transition: all 0.2s ease;
+      -o-transition: all 0.2s ease;
+      transition: all 0.2s ease; }
+      .rtl #leo_search_block_top .block_content #leo_search_top_button {
+        left: -1px;
+        right: auto; }
+      #leo_search_block_top .block_content #leo_search_top_button:before {
+        content: '\f1c3';
+        display: block;
+        font-family: "Material-Design-Iconic-Font"; }
+      #leo_search_block_top .block_content #leo_search_top_button:hover {
+        background: #fdae3d; }
+      #leo_search_block_top .block_content #leo_search_top_button i {
+        display: none; }
+
+/*# sourceMappingURL=leosearch.css.map */

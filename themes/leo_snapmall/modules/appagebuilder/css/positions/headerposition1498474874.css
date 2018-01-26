@@ -1,0 +1,220 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+.header-nav {
+  background: #33425a; }
+
+.header-top {
+  background: #343942; }
+
+.box-top-header {
+  position: relative; }
+  @media (min-width: 768px) {
+    .box-top-header {
+      display: -webkit-box;
+      display: -moz-box;
+      display: box;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -moz-box-align: center;
+      box-align: center;
+      -webkit-align-items: center;
+      -moz-align-items: center;
+      -ms-align-items: center;
+      -o-align-items: center;
+      align-items: center;
+      -ms-flex-align: center; } }
+  .box-top-header > [class*="col-"] {
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    box-align: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    -o-align-items: center;
+    align-items: center;
+    -ms-flex-align: center; }
+  .box-top-header .left-top-header {
+    -webkit-box-pack: start;
+    -moz-box-pack: start;
+    box-pack: start;
+    -webkit-justify-content: flex-start;
+    -moz-justify-content: flex-start;
+    -ms-justify-content: flex-start;
+    -o-justify-content: flex-start;
+    justify-content: flex-start;
+    -ms-flex-pack: start; }
+    @media (max-width: 767px) {
+      .box-top-header .left-top-header {
+        -webkit-box-pack: center;
+        -moz-box-pack: center;
+        box-pack: center;
+        -webkit-justify-content: center;
+        -moz-justify-content: center;
+        -ms-justify-content: center;
+        -o-justify-content: center;
+        justify-content: center;
+        -ms-flex-pack: center; } }
+    .box-top-header .left-top-header .logo {
+      padding: 25px 0; }
+  @media (min-width: 768px) {
+    .box-top-header .center-top-header {
+      -webkit-box-pack: center;
+      -moz-box-pack: center;
+      box-pack: center;
+      -webkit-justify-content: center;
+      -moz-justify-content: center;
+      -ms-justify-content: center;
+      -o-justify-content: center;
+      justify-content: center;
+      -ms-flex-pack: center; } }
+  @media (min-width: 576px) {
+    .box-top-header .center-top-header #leo_search_block_top {
+      padding-top: 10px;
+      padding-bottom: 10px; } }
+  @media (max-width: 767px) {
+    .box-top-header .center-top-header #leo_search_block_top {
+      padding-top: 0px; } }
+  .box-top-header .right-top-header {
+    -webkit-box-pack: end;
+    -moz-box-pack: end;
+    box-pack: end;
+    -webkit-justify-content: flex-end;
+    -moz-justify-content: flex-end;
+    -ms-justify-content: flex-end;
+    -o-justify-content: flex-end;
+    justify-content: flex-end;
+    -ms-flex-pack: end; }
+    @media (max-width: 575px) {
+      .box-top-header .right-top-header {
+        -webkit-box-pack: justify;
+        -moz-box-pack: justify;
+        box-pack: justify;
+        -webkit-justify-content: space-between;
+        -moz-justify-content: space-between;
+        -ms-justify-content: space-between;
+        -o-justify-content: space-between;
+        justify-content: space-between;
+        -ms-flex-pack: justify; } }
+
+.box-bottom-header {
+  position: relative; }
+  @media (min-width: 992px) {
+    .box-bottom-header {
+      display: -webkit-box;
+      display: -moz-box;
+      display: box;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -moz-box-align: center;
+      box-align: center;
+      -webkit-align-items: center;
+      -moz-align-items: center;
+      -ms-align-items: center;
+      -o-align-items: center;
+      align-items: center;
+      -ms-flex-align: center; } }
+  .box-bottom-header > [class*="col-"] {
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    box-align: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    -o-align-items: center;
+    align-items: center;
+    -ms-flex-align: center; }
+  .box-bottom-header .left-bottom-header {
+    -webkit-box-pack: start;
+    -moz-box-pack: start;
+    box-pack: start;
+    -webkit-justify-content: flex-start;
+    -moz-justify-content: flex-start;
+    -ms-justify-content: flex-start;
+    -o-justify-content: flex-start;
+    justify-content: flex-start;
+    -ms-flex-pack: start; }
+    .box-bottom-header .left-bottom-header .ApMegamenu {
+      width: 100%; }
+  .box-bottom-header .center-bottom-header {
+    position: static; }
+    @media (min-width: 992px) {
+      .box-bottom-header .center-bottom-header {
+        -webkit-box-pack: start;
+        -moz-box-pack: start;
+        box-pack: start;
+        -webkit-justify-content: flex-start;
+        -moz-justify-content: flex-start;
+        -ms-justify-content: flex-start;
+        -o-justify-content: flex-start;
+        justify-content: flex-start;
+        -ms-flex-pack: start; } }
+    @media (max-width: 991px) {
+      .box-bottom-header .center-bottom-header {
+        position: static; }
+        .box-bottom-header .center-bottom-header .leo-megamenu .navbar-header {
+          padding: 7px 0; } }
+  .box-bottom-header .right-bottom-header {
+    -webkit-box-pack: end;
+    -moz-box-pack: end;
+    box-pack: end;
+    -webkit-justify-content: flex-end;
+    -moz-justify-content: flex-end;
+    -ms-justify-content: flex-end;
+    -o-justify-content: flex-end;
+    justify-content: flex-end;
+    -ms-flex-pack: end; }
+    .box-bottom-header .right-bottom-header .popup-over .popup-title {
+      padding: 15.5px 28px 15.5px 20px; }
+      .rtl .box-bottom-header .right-bottom-header .popup-over .popup-title {
+        padding: 15.5px 20px 15.5px 28px; }
+      .box-bottom-header .right-bottom-header .popup-over .popup-title .icon-arrow-down {
+        right: 15px; }
+        .rtl .box-bottom-header .right-bottom-header .popup-over .popup-title .icon-arrow-down {
+          left: 15px;
+          right: auto; }
+    .box-bottom-header .right-bottom-header .popup-over + .popup-over {
+      margin-left: 0px; }
+      .rtl .box-bottom-header .right-bottom-header .popup-over + .popup-over {
+        margin-right: 0px;
+        margin-left: inherit; }
+
+/*# sourceMappingURL=headerposition1498474874.css.map */

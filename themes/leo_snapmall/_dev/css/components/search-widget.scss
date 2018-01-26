@@ -1,0 +1,84 @@
+@import "theme_variables";
+
+.search-widget {
+  position: relative;
+  @include clearfix();
+  @include search-box();
+  @include rtl-margin(0,0,0,0);
+  @media (max-width: 991px) {
+    // z-index: 1000;
+  }
+  .popup-title{
+    font-size: 0px;
+    display: none;
+    color: $black;
+    width: 28px;
+    height: 28px;
+    @include rtl-margin(0,0,0,10px);
+    @include rtl-padding(5px,7.45px,5px,7.45px);
+    &:hover{
+      color: $theme_color_default;
+    }
+    .search{
+      font-weight: bold;
+      font-size: 18px;
+    }
+  }
+  .popup-content{
+    display: block;
+    position: static;
+    background: none;
+    padding: 0;
+    z-index: 9999;
+    width: 100%;
+    min-width: inherit;
+    border: none;
+    min-width: 270px;
+    background: transparent;
+    @include rtl-padding(0px,20px,0px,0px);
+    @media (min-width: 992px) {
+     @include animation(none); 
+    }
+  } 
+  .search:before{
+    content: "\f1c3";
+    display: block;
+    font-family: $font-icon-3;
+  }
+}
+
+.popup-search{
+  .search-widget{
+    @include popup-search();
+  }
+} 
+
+#checkout {
+  #search_widget {
+    display: none; /* Not ideal solution by allows to reuse same hooks/templates */
+  }
+}
+#search{
+  #search_widget .popup-content{
+    @include box-shadow(none);
+  }
+}
+
+#pagenotfound,#search {
+  .page-content {
+    #search_widget {
+      width: 100%;
+    }
+    .popup-content{
+      width: 100%;
+      display: block;
+      position: static;
+      min-width: initial;
+    }
+  }
+  // #products{
+  //   @media (min-width: 992px) {
+  //     padding: 230px 0;
+  //   }
+  // }
+}

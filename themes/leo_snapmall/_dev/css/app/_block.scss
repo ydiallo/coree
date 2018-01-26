@@ -1,0 +1,156 @@
+@import "vars/block.vars";
+// block in sidebar - left column, right column
+.sidebar{
+    .#{$block-selector} {
+        background: $white;
+        margin-bottom: $block-margin-bottom;  
+        padding: 25px 20px; 
+        @media (min-width: 768px) {
+            border: 2px solid  #e5e5e5;
+        }
+        .#{$block-heading-selector}{   
+            background: $block-heading-bg;   
+            border: $block-heading-border; 
+            color: $block-heading-color;                                                            
+            text-transform: $block-heading-transform;
+            font-family: $block-heading-font-family;        
+            font-size: $block-heading-font-size;
+            font-weight: $block-heading-font-weight; 
+            letter-spacing: $block-heading-letter-spacing;  
+            padding: $block-heading-padding;  
+            position: relative; 
+            margin: $block-heading-margin; 
+            word-break: break-word;
+            @include rounded-corners($block-heading-radius); 
+            @include rtl-text-align-left();
+            a{
+                color: $block-heading-color;
+            }
+        }
+        .#{$block-content-selector} {        
+            @include rounded-corners($block-content-radius);
+            @include clearfix();     
+            padding: $block-content-padding;
+            border: $block-content-border;  
+            background: $block-content-bg;             
+        }
+        .products{
+            .ajax_block_product {
+                @include make-col(12);
+                @media (max-width: 767px) and (min-width: 576px){
+                    @include make-col(6);
+                }
+                &:first-child .thumbnail-container{
+                    border-top: none;
+                }
+            }
+            .thumbnail-container{
+                @include clearfix();
+                @include rtl-text-align-left();
+                .product-image{
+                    max-width: 80px;
+                    @include rtl-float-left();
+                    .product-thumbnail:before{
+                        display: none;
+                    }
+                }
+                .product-meta{
+                    zoom: 1;
+                    overflow: hidden;
+                    @include rtl-padding(5px,0,0,10px);
+                }
+                .box-label,
+                .highlighted-informations,
+                .quickview,
+                .product-flags,
+                .functional-buttons,
+                .leo-pro-attr-section,.leo_cart_quantity{
+
+                    display: none;
+                }
+                .product-title{
+                    margin-top: 0px;
+                }
+                .product-price-and-shipping .discount-percentage{
+                    display: inline-block;
+                }
+                &:hover{
+                    @include box-shadow(none);
+                }
+            }
+            .product_list{
+                background: transparent;
+            }
+        }
+        a.all-product-link{
+            font-size: 14px;
+            white-space: normal;
+            word-break: break-word;
+            color: #222222;
+            background: transparent;
+            border: none;
+            padding: 0px;
+            font-weight: bold;
+            text-transform: uppercase;
+            &:hover{
+                color: $theme-color-default;
+            }
+        }
+        .list-group-item{
+            border: none;
+            background: transparent;
+            padding: 7px 0;
+        }
+    }
+    // Contextual variations
+    // .#{$block-prefix}-highlighted {
+    //     border-width: 2px;
+    //     border-style: solid;
+    //     @include block-variant($block-highlighted-border, $block-highlighted-text, $block-highlighted-bg, $block-highlighted-border);
+    //     .#{$block-heading-selector}{
+    //         &:before {
+    //             position: relative; 
+    //             content: $block-icon-content; 
+    //             font-family: $font-icon;
+    //             font-size: $font-size-h4;
+    //             background: none;
+    //             @include rtl-margin-right(5px);
+    //         } 
+    //     }
+    // }
+}
+
+// block in header
+// block in footer
+.footer-container {
+    font-size: 13px;
+    .#{$block-selector} {
+        .#{$block-heading-selector}{
+            color: #333333;
+            font-size: 15px;
+            margin: 0px 0 30px;
+            text-transform: uppercase;
+            @media(max-width: 991px){
+                @include rtl-margin(15px,0px,15px,0px);
+            }
+            @media(max-width: 767px){
+                @include rtl-margin(15px,25px,15px,0);
+            }
+            a{
+                color: #333333;
+                &:hover{
+                    color: $theme-color-default;
+                }
+            }
+            &:before{
+                display: none;
+            }
+        }
+        &.block-link-inline{
+            .title_block{
+                @include rtl-margin(0px,0px,15px,0px);
+            }
+        }
+    }
+}
+// block in main

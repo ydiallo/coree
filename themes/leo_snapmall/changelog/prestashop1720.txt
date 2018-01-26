@@ -1,0 +1,79 @@
+/**************************************************
+	Changelog Of Prestashop 1.7.2.0
+**************************************************/
+**** File css ****
+- \assets\css\theme.css
+
+**** File JS ****
+- \assets\js\theme.js
+- add new file \_dev\postcss.config.js
+**** File TPL ****
+- \modules\contactform\views\templates\widget\contactform.tpl
+- \modules\ps_banner\ps_banner.tpl
+- \modules\ps_bestsellers\views\templates\hook\ps_bestsellers.tpl
+- \modules\ps_categoryproducts\views\templates\hook\ps_categoryproducts.tpl
+- \modules\ps_contactinfo\nav.tpl
+- \modules\ps_contactinfo\ps_contactinfo.tpl
+- \modules\ps_contactinfo\ps_contactinfo-rich.tpl
+- \modules\ps_crossselling\views\templates\hook\ps_crossselling.tpl
+- \modules\ps_currencyselector\ps_currencyselector.tpl
+- \modules\ps_customeraccountlinks\ps_customeraccountlinks.tpl
+- \modules\ps_emailsubscription\views\templates\hook\ps_emailsubscription.tpl
+- \modules\ps_imageslider\views\templates\hook\slider.tpl
+- \modules\ps_languageselector\ps_languageselector.tpl
+- \modules\ps_linklist\views\templates\hook\linkblock.tpl
+- \modules\ps_mainmenu\ps_mainmenu.tpl
+- \modules\ps_newproducts\views\templates\hook\ps_newproducts.tpl
+- \modules\ps_productinfo\views\templates\hook\ps_productinfo.tpl
+- \modules\ps_searchbar\ps_searchbar.tpl
+- \modules\ps_shoppingcart\modal.tpl
+- \modules\ps_specials\views\templates\hook\ps_specials.tpl
+- \modules\ps_viewedproduct\views\template\hook\ps_viewedproduct.tpl
+- \templates\_partials\form-errors.tpl
+- \templates\_partials\notifications.tpl
+- \templates\_partials\pagination.tpl
+- \templates\catalog\_partials\miniatures\product.tpl
+- \templates\catalog\_partials\active_filters.tpl
+- \templates\catalog\_partials\facets.tpl
+- \templates\catalog\_partials\product-activation.tpl
+- \templates\catalog\_partials\product-add-to-cart.tpl
+- \templates\catalog\_partials\product-details.tpl
+- \templates\catalog\_partials\product-customization.tpl
+- \templates\catalog\_partials\product-images-modal.tpl
+- \templates\catalog\_partials\products-top.tpl
+- \templates\catalog\_partials\product-variants.tpl
+- \templates\catalog\_partials\sort-orders.tpl
+- \templates\catalog\listing\category.tpl
+- \templates\catalog\listing\manufacturer.tpl
+- \templates\sub\product_info\tab.tpl
+- \templates\checkout\_partials\steps\payment.tpl
+- \templates\checkout\_partials\steps\personal-information.tpl
+- \templates\checkout\_partials\steps\shipping.tpl
+- \templates\checkout\_partials\cart-detailed-actions.tpl
+- \templates\checkout\_partials\cart-detailed-totals.tpl
+- \templates\checkout\_partials\cart-summary.tpl
+- \templates\checkout\_partials\cart-voucher.tpl
+- \templates\checkout\_partials\order-confirmation-table.tpl
+- \templates\checkout\cart.tpl
+- \templates\checkout\cart-empty.tpl
+- \templates\checkout\checkout.tpl
+- \templates\cms\category.tpl
+- \templates\cms\sitemap.tpl
+- \templates\cms\stores.tpl
+- \templates\customer\_partials\login-form.tpl
+- \templates\customer\_partials\my-account-links.tpl
+- \templates\customer\_partials\order-messages.tpl
+- \templates\customer\guest-login.tpl
+- \templates\customer\history.tpl
+- \templates\customer\my-account.tpl
+- \templates\customer\order-detail.tpl
+- \templates\customer\order-follow.tpl
+- \templates\customer\order-slip.tpl
+- \templates\errors\maintenance.tpl
+- \templates\errors\not-found.tpl
+- \templates\errors\restricted-country.tpl
+- \templates\layouts\layout-both-columns.tpl
+- \templates\layouts\layout-content-only.tpl
+- \templates\layouts\layout-full-width.tpl
+- \templates\layouts\layout-left-column.tpl
+- \templates\layouts\layout-right-column.tpl

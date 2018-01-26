@@ -1,0 +1,38 @@
+@import "theme_variables";
+
+#block-reassurance{
+  margin-top: 32px;
+  margin-bottom: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  ul{
+    margin-bottom: 0;
+  }
+  li{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    &:last-child {
+      border: 0;
+    }
+  }
+  li .block-reassurance-item{
+    padding: 1rem 1.5rem;
+    display: table;
+    img{
+      min-width: 30px;
+      display: table-cell;
+      vertical-align: middle;
+    }
+    span{
+      display: table-cell;
+      vertical-align: middle;
+      @include rtl-padding-left(10px);
+    }
+  }
+  #product &{
+    @include box-shadow(2px 2px 11px 0px rgba(0, 0, 0, 0.1));
+    background: white;
+    span{
+      font-weight: 700;
+      margin-bottom: 0;
+    }
+  }
+}

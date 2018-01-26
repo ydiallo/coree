@@ -1,0 +1,76 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+.box-start {
+  padding-top: 35px; }
+
+.box-slideshow {
+  margin-bottom: 50px; }
+  @media (max-width: 991px) {
+    .box-slideshow {
+      margin-left: -10px;
+      margin-right: -10px; } }
+  @media (min-width: 992px) {
+    .box-slideshow > [class*="col-"] {
+      float: right; }
+      .rtl .box-slideshow > [class*="col-"] {
+        float: left; } }
+  @media (max-width: 991px) {
+    .box-slideshow .left-block {
+      margin-top: 30px; } }
+
+.box-banner {
+  margin-bottom: 20px; }
+  .box-banner .banner {
+    margin-bottom: 30px; }
+
+.box-product-tabs {
+  margin-bottom: 50px; }
+  @media (max-width: 991px) {
+    .box-product-tabs {
+      margin-bottom: 30px; } }
+
+.box-custom {
+  margin-bottom: 50px; }
+  @media (max-width: 991px) {
+    .box-custom {
+      margin-bottom: 30px; } }
+  @media (max-width: 991px) {
+    .box-custom > .left-block {
+      margin-bottom: 30px; } }
+  @media (max-width: 767px) {
+    .box-custom .center-block {
+      margin-bottom: 30px; } }
+
+.box-google-map {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 70px; }
+  @media (max-width: 991px) {
+    .box-google-map {
+      margin-bottom: 50px; } }
+  .box-google-map > [class*="col-"] {
+    padding-left: 0px;
+    padding-right: 0px; }
+  .box-google-map .block-map {
+    border: 5px solid #43536d; }
+
+/*# sourceMappingURL=profile1498775097.css.map */

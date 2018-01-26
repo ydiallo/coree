@@ -1,0 +1,16 @@
+/**************************************************
+	Changelog Of Prestashop 1.7.1.1
+**************************************************/
+**** File css ****
+- \assets\css\theme.css
+
+**** File JS ****
+- \_dev\js\components\product-select.js
+- \_dev\js\checkout.js
+- \_dev\js\responsive.js
+- \assets\js\theme.js
+
+**** File TPL ****
+- \templates\checkout\_partials\steps\payment.tpl
+- \templates\checkout\_partials\address-form.tpl
+- \templates\customer\_partials\address-form.tpl

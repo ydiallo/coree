@@ -1,0 +1,10 @@
+/**************************************************
+	Changelog Of Prestashop 1.7.0.4
+**************************************************/
+**** File tpl ****
+- \templates\catalog\_partials\product-add-to-cart.tpl
+- \templates\catalog\_partials\product-prices.tpl
+- \templates\checkout\_partials\steps\personal-information.tpl
+
+**** File JS ****
+- \assets\js\theme.js

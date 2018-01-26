@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="D:\www\prestashop\dev\new\leo_snapmall\themes\leo_snapmall\modules\appagebuilder\views\templates\hook\blog\ApBlog.tpl" source-language="fr-FR" target-language="fr-FR" datatype="plaintext">
+    <body>
+      <trans-unit id="44cb5634317a9970412537154d8b98b2">
+        <source>No blog at this time.</source>
+        <target>Pas de blog en ce moment.</target>
+        <note>Context:
+File: D:\www\prestashop\dev\new\leo_snapmall\themes\leo_snapmall\modules\appagebuilder\views\templates\hook\blog\ApBlog.tpl:37</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\www\prestashop\dev\new\leo_snapmall\themes\leo_snapmall\modules\appagebuilder\views\templates\hook\product-fillter\ApProductCarousel.tpl" source-language="fr-FR" target-language="fr-FR" datatype="plaintext">
+    <body>
+      <trans-unit id="1a8c0228da8fb16885881e6c97b96f08">
+        <source>No products at this time.</source>
+        <target>Aucun produit pour le moment.</target>
+        <note>Context:
+File: D:\www\prestashop\dev\new\leo_snapmall\themes\leo_snapmall\modules\appagebuilder\views\templates\hook\product-fillter\ApProductCarousel.tpl:34</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\www\prestashop\dev\new\leo_snapmall\themes\leo_snapmall\modules\leofeature\views\templates\hook\leo_compare_button.tpl" source-language="fr-FR" target-language="fr-FR" datatype="plaintext">
+    <body>
+      <trans-unit id="201f644e542b0230551936ae7af3169e">
+        <source>Remove from Compare</source>
+        <target>Supprimer de Comparer</target>
+        <note>Context:
+File: D:\www\prestashop\dev\new\leo_snapmall\themes\leo_snapmall\modules\leofeature\views\templates\hook\leo_compare_button.tpl:9</note>
+      </trans-unit>
+      <trans-unit id="7f5508c884f40e3378895c83d99cbbd3">
+        <source>Add to Compare</source>
+        <target>ajouter pour comparer</target>
+        <note>Context:
+File: D:\www\prestashop\dev\new\leo_snapmall\themes\leo_snapmall\modules\leofeature\views\templates\hook\leo_compare_button.tpl:13</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\www\prestashop\dev\new\leo_snapmall\themes\leo_snapmall\modules\leofeature\views\templates\hook\leo_wishlist_button.tpl" source-language="fr-FR" target-language="fr-FR" datatype="plaintext">
+    <body>
+      <trans-unit id="6a5373df703ab2827a4ba7facdfcf779">
+        <source>Add to Wishlist</source>
+        <target>Ajouter à la liste de souhaits</target>
+        <note>Context:
+File: D:\www\prestashop\dev\new\leo_snapmall\themes\leo_snapmall\modules\leofeature\views\templates\hook\leo_wishlist_button.tpl:31</note>
+      </trans-unit>
+      <trans-unit id="d7e2d3dbf5daf266a0877428e0e1b8fb">
+        <source>Remove from Wishlist</source>
+        <target>Supprimer de la liste de souhaits</target>
+        <note>Context:
+File: D:\www\prestashop\dev\new\leo_snapmall\themes\leo_snapmall\modules\leofeature\views\templates\hook\leo_wishlist_button.tpl:27</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\www\prestashop\dev\new\leo_snapmall\admincp" source-language="fr-FR" target-language="fr-FR" datatype="plaintext">
+    <body>
+      <trans-unit id="2d0f6b8300be19cf35e89e66f0677f95">
+        <source>Add to cart</source>
+        <target>Ajouter au panier</target>
+        <note>Context:
+File: D:\www\prestashop\dev\new\leo_snapmall\admincp:</note>
+      </trans-unit>
+      <trans-unit id="7eece51cf3938103677db7a5051ef8f5">
+        <source>Compare</source>
+        <target>Comparer</target>
+        <note>Context:
+File: D:\www\prestashop\dev\new\leo_snapmall\admincp:</note>
+      </trans-unit>
+      <trans-unit id="641254d77e7a473aa5910574f3f9453c">
+        <source>Wishlist</source>
+        <target>Liste de souhaits</target>
+        <note>Context:
+File: D:\www\prestashop\dev\new\leo_snapmall\admincp:</note>
+      </trans-unit>
+      <trans-unit id="e928646f031c1da65ac1189b2fccc903">
+        <source>View all in instagram</source>
+        <target>Afficher tout dans instagram</target>
+        <note>Context:
+File: D:\www\prestashop\dev\new\leo_snapmall\admincp:</note>
+      </trans-unit>
+      <trans-unit id="d8d7ad6abfd08c27baa8bedb78c72ddb">
+        <source>View All</source>
+        <target>Voir tout
+</target>
+        <note>Context:
+File: D:\www\prestashop\dev\new\leo_snapmall\admincp:</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

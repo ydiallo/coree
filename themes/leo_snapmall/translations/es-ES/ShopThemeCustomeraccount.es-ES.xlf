@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="D:\www\prestashop\dev\new\leo_snapmall\admincp" source-language="es-ES" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="d4151a9a3959bdd43690735737034f27">
+        <source>Log in to your customer account</source>
+        <target>Acceda a su cuenta de cliente</target>
+        <note>Context:
+File: D:\www\prestashop\dev\new\leo_snapmall\admincp:</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
